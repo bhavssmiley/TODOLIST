@@ -1,0 +1,18 @@
+{% extends 'main.html' %}
+{% block content %}
+<section id="ri">
+   <ul id="si">
+       {%for task in data %}
+       <div class="you">
+           <li>
+               <h2>{{task.taskname}}</h2>
+           </li><br>
+           <li>
+               <h2>{{task.taskdesc}}</h2>
+           </li>
+       </div>
+       {% endfor %}
+   </ul>
+</section>
+
+{% endblock content %}

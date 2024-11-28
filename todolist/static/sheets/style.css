@@ -1,0 +1,160 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+#b{
+    border: 2px solid;
+    height: 60px;
+    background-color: black;
+   
+}
+#b ol{
+    list-style: none;
+    display: flex;
+    gap: 14%;
+    line-height: 60px;
+    margin-left: 5%;
+    color: white;
+}
+body {
+    font-family: Arial, sans-serif;
+    /* background-color: #f0f4f8; Light background for the page */
+    background-color: purple;
+}
+
+form {
+    background-color: #ffffff; /* White background for the form */
+    padding: 20px;
+    margin: 50px auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 360px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 8px;
+    color: #333;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    transition: border-color 0.3s ease;
+    background-color: rgb(177, 176, 192);
+}
+
+input[type="text"]:focus {
+    border-color: #5b9bd5;
+    outline: none;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #5b9bd5;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #43e476;
+}
+
+button:active {
+    background-color: #34e193;
+}
+#m{
+    text-align: center;
+}
+#l{
+    border: 2px solid;
+    text-align: center;
+    padding-top: 2%;
+    width: 35%;
+    margin-left: 35%;
+    background-color: burlywood;
+    border-radius: 20px;
+    height: 68px;
+}
+#l a{
+    font-size: 20px;
+    text-decoration: none;
+}
+/* Style the task container */
+#c {
+    width: 50%;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    /* border: 1px solid #ddd; */
+    border-radius: 10px;
+    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
+  }
+  
+  /* Style the task header */
+  #h {
+    font-weight: bold;
+    font-size: 18px;
+    color: #333;
+  }
+  
+  /* Style the task name */
+  #v {
+    font-size: 18px;
+    color: #666;
+    margin-top: 3%;
+  }
+  
+  /* Style the task description */
+  #n {
+    font-weight: bold;
+    font-size: 16px;
+    color: #333;
+  }
+  
+  /* Style the task description value */
+  #a {
+    font-size: 16px;
+    color: #666;
+  }
+  
+  /* Style the edit button */
+  #s {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  /* Style the mark as read button */
+  button[type="submit"] {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 60%;
+    margin-left: 20%;
+  }
+  
+  /* Style the form */
+  form {
+    margin-top: 50px;
+  }
+#h1 #search{
+    border-color: #333;
+}

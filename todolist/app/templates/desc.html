@@ -1,0 +1,16 @@
+{% extends 'main.html' %}
+{% block content %}
+<form action="" method="POST" id="h1">
+  {% csrf_token %}
+  <input type="text" name="search" id="search">
+  <button type="submit">search</button>
+</form>
+<h1 id="m">TASK-LIST</h1><br><br>
+    {% for i in data %}
+      {{i.Task}} <br>
+    <div id="l">
+        <a href="{% url 'details' i.id %}"> {{i.taskname}} <br><br></a><br>
+    </div><br>
+ <a href="">{{i.desc}}</a>
+    {% endfor %}
+    {% endblock content %}

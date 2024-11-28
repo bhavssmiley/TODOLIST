@@ -1,0 +1,11 @@
+{% extends 'main.html' %}
+{% block content %}
+<form action="" method="POST">
+    {% csrf_token %}
+    <label for="task"><a href="">Task:</a></label>
+    <input type="text" name="task" id="task" placeholder="Add the task you are going to do....!"><br>
+    <label for="desc"><a href="">Description:</a></label>
+    <input type="text" name="desc" id="desc">
+    <button type="submit">Submit</button>
+</form>
+{% endblock content %}

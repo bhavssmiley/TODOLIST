@@ -1,0 +1,12 @@
+{% extends 'main.html' %}
+{% block content %}
+    <div id="c">
+        <span id="h">TASK:</span><span id="v">{{data.taskname}}</span><br><br>
+        <span id="n">Description:</span><span id="a">{{data.taskdescription}}</span>
+        <button><a href="{% url 'ludo' data.id %}" id="s">EDIT</a></button>
+        <form action="" method="POST">
+            {% csrf_token %}
+            <button type="submit">Mark as Read</button>
+        </form>
+    </div>
+{% endblock content %}

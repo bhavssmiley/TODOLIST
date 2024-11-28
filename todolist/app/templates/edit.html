@@ -1,0 +1,11 @@
+{% extends 'main.html' %}
+{% block content %}
+<form action="" method="POST">
+    {% csrf_token %}
+<button>TASK:</button>
+<input type="text"  name="task" value ="{{ data.taskname}}"><br><br>
+<button>DESCRIPTION:</button>
+<input type="text" name="desc" value ="{{ data.taskdesc }}"><br><br>
+<button id="submit">Submit</button>
+</form> 
+{% endblock content %}
